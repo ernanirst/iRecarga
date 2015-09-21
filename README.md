@@ -8,7 +8,7 @@ The goal of this project is to add multiple implementations of iRecarga's API, i
 ## Getting Started
 ### Java
 * Download the last version;
-* Add to your workspace any json implementation (I used the original from Sun Microsystem)
+* Add to your workspace any json implementation (I used the original from Sun Microsystem);
 * Go to core/IRecarga.java and edit yout account information (email and password);
 * Go to test/Main.java and edit all the information regards to the target recharge;
 
