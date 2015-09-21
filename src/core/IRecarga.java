@@ -15,10 +15,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/**
- *
- * @author ernanirst
- */
 public abstract class IRecarga {
 
     /* User credentials (CHANGE THIS)*/
