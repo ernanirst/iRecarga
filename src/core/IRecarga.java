@@ -155,7 +155,7 @@ public abstract class IRecarga {
             try {
                 json = new JSONObject(postRequest(reloaderCompanyService, "&NN_DDD=" + ddd + "&NN_TOKEN=" + token));
                 jarray = json.getJSONArray("operadoras");
-                if(json.getJSONArray("operadoras")==null) System.out.println("whaaat nigga");
+                if(json.getJSONArray("operadoras")==null) System.out.println("Error");
                 for (int i = 0; i < jarray.length(); i++) {
                     ret += jarray.getString(i);
                     if (i != jarray.length() - 1) {
